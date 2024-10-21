@@ -1,6 +1,6 @@
 # Layoffs SQL Portfolio
 ## Outline
-[Data Cleaning] </br>
+[Data Cleaning]( </br>
 [Exploratory Data Analysis (EDA)] </br>
 
 ### Data Cleaning
