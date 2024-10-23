@@ -21,7 +21,7 @@ Before cleaning the data, I duplicated the table and named it layoffs_staging. T
 
 - <b> cannot delete using the cte row number method, so I make new table [layoffs_staging2] with additional new rows for row_num </b> </br>
 
-- <b> This query is for inserts data from the "layoffs_staging" table into the "layoffs_staging2" table.</br>
+- <b> Inserts data from the "layoffs_staging" table into the "layoffs_staging2" table.</br>
 While doing so, it adds a "row_num" column that generates a unique row number for each group of records with the same combination columns.</br>
 The ROW_NUMBER() function ensures that if there are multiple records with the same values in those columns, each will be assigned a unique number starting from 1.</b></br>
 
@@ -41,16 +41,31 @@ The ROW_NUMBER() function ensures that if there are multiple records with the sa
   
 ![Duplicate Columns](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/pict/duplicate%20columns.png)
 
-</br>
 
+- <b> Delete Duplicate Columns</b></br>
 
-
-
+   DELETE</br>
+   from layoffs_staging2</br>
+   where row_num > 1 ;
 
 ### 2 Standardize the Data
 
-### 3 Null Values or blank Values
+- Trim company column (remove the unuseable space in the column)</br>
+- Cleaning up the industry column that begin with "Crypto" (including variations like "Crypto Currency" or "Cryptocurrency") are standardized to just 'Crypto'.</br>
+- Delete . from United States. in Country Column using trim and trailing.</br>
+- Change date column to 'date' format.</br>
 
-### 4 Remove any Columns or Rows
+### 3 Null Values or blank Values
+- Check the null/blank values for each columns</br>
+- Fill the values for Industry, if we have the same data (example : Airbnb has 2 data : "Travel" and "Null", we can fill the "Null" with "Travel")</br>
+- Delete the rows with null or blank values in the total_laid_off and percentage_laid_off columns, as we won't use those columns if there is no data for layoffs.</br>
+
+### 4 Remove any Unecessary Columns or Rows
+- Drop the row_num column so that the data returns to its original format.</br>
+</br>
 
 ## Exploratory Data Analysis (EDA)
+
+
+
+
