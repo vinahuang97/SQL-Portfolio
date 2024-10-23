@@ -39,7 +39,8 @@ The ROW_NUMBER() function ensures that if there are multiple records with the sa
     from layoffs_staging2</br>
     where row_num > 1 ;</br>
 </br>
-![Duplicate Columns](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/pict/duplicate%20columns.png)
+![Duplicate Columns](https://raw.githubusercontent.com/vinahuang97/Portfolio/main/01-sql-portfolio/pict/duplicate%20columns.png)
+
 </br>
 
 
