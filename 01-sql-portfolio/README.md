@@ -19,16 +19,25 @@ Before cleaning the data, I duplicated the table and named it layoffs_staging. T
 
 ### 1 Remove Duplicates
 
-SELECT *,</br>
-ROW_NUMBER() OVER(</br>
-PARTITION BY company, location, industry, </br>
-total_laid_off, percentage_laid_off, `date`, stage, </br>
-country, funds_raised_millions</br>
-) as row_num</br>
-FROM layoffs_staging</br>
-</br>
+- <b> cannot delete using the cte row number method, so I make new table [layoffs_staging2] with additional new rows for row_num </b> </br>
 
+- <b> This query is for inserts data from the "layoffs_staging" table into the "layoffs_staging2" table.</br>
+While doing so, it adds a "row_num" column that generates a unique row number for each group of records with the same combination columns.</br>
+The ROW_NUMBER() function ensures that if there are multiple records with the same values in those columns, each will be assigned a unique number starting from 1.</b></br>
 
+    insert into layoffs_staging2 </br>
+    SELECT *,</br>
+    ROW_NUMBER() OVER(</br>
+    PARTITION BY company, location, industry, </br>
+    total_laid_off, percentage_laid_off, `date`, stage, </br>
+    country, funds_raised_millions</br>
+    ) as row_num</br>
+    FROM layoffs_staging;</br>
+
+- </b> check how much the duplicate columns</b></br>
+    select *</br>
+    from layoffs_staging2</br>
+    where row_num > 1 ;
 
 
 
