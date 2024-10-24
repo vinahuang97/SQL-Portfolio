@@ -27,6 +27,7 @@
 Tech firms around the globe are fighting the economic slowdown. The slow consumer spending, higher interest rates by central banks and strong dollars overseas are hinting towards possible recession and tech firms have started laying employees off. This economic slowdown has made Meta recently fire 13% of its workforce, which amounts to more than 11,000 employees.</br>
 
 The data availability is from when COVID-19 was declared as a pandemic i.e. 11 March 2020 to 06 March 2023.
+It has 2,361 total datas.
 
 ## Data Cleaning
 Before cleaning the data, I duplicated the table and named it layoffs_staging. This ensures that if I make any mistakes, I can always revert to the original data and start over.
