@@ -8,17 +8,17 @@
   * [Remove any unecessary Columns or Rows](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#4-remove-any-columns-or-rows)</br>
  
 [Exploratory Data Analysis (EDA)](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#exploratory-data-analysis-eda) </br>
- * Identify the maximum values for both total_laid_off and percentage_laid_off across the dataset.
- * Identify the total layoffs for each company.
- * Identify the total layoffs for each industry.
- * Identify the total layoffs for each country.
- * Identify the total layoffs for each state.
- * Identify the average percentage laid off for each company.
- * Identify the earliest and latest layoff dates recorded in the dataset.
- * Identify the total layoffs for each year.
- * Calculae the total layoffs per month, along with the cumulative (rolling) total over the specified time period.
- * Identify the total layoffs for each company in each year.
- * Rank companies by total layoffs each year and retrieve the top 5 companies with the highest layoffs for each year.
+ * [Identify the maximum values for both total_laid_off and percentage_laid_off across the dataset](https://github.com/vinahuang97/Portfolio/main/01-sql-portfolio/README.md#identify-the-maximum-values-for-both-total_laid_off-and-percentage_laid_off-across-the-dataset)</br>
+ * [Identify the total layoffs for each company]</br>
+ * [Identify the total layoffs for each industry]</br>
+ * [Identify the total layoffs for each country]</br>
+ * [Identify the total layoffs for each state]</br>
+ * [Identify the average percentage laid off for each company]</br>
+ * [Identify the earliest and latest layoff dates recorded in the dataset]</br>
+ * [Identify the total layoffs for each year]</br>
+ * [Calculae the total layoffs per month, along with the cumulative (rolling) total over the specified time period]</br>
+ * [Identify the total layoffs for each company in each year]</br>
+ * [Rank companies by total layoffs each year and retrieve the top 5 companies with the highest layoffs for each year]</br>
 
 </br>
 </br>
@@ -79,7 +79,11 @@ The ROW_NUMBER() function ensures that if there are multiple records with the sa
 </br>
 
 ## Exploratory Data Analysis (EDA)
-- Identify the maximum values for both total_laid_off and percentage_laid_off across the dataset.
+### Identify the maximum values for both total_laid_off and percentage_laid_off across the dataset
+
+![maximum values for both total_laid_off & percentage_laid_off](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/pict/max%20total%20%26%20precentage%20laid%20off.png)
+
+
 - Identify the total layoffs for each company.
 - Identify the total layoffs for each industry.
 - Identify the total layoffs for each country.
