@@ -7,8 +7,8 @@
   * [Null Values or Blank Values](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#3-null-values-or-blank-values)</br>
   * [Remove any unecessary Columns or Rows](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#4-remove-any-columns-or-rows)</br>
  
-[Exploratory Data Analysis (EDA)](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#exploratory-data-analysis-eda) </br>
- * [Identify the maximum values for both total_laid_off and percentage_laid_off across the dataset](https://github.com/vinahuang97/Portfolio/blob/01-sql-portfolio/README.md#identify-the-maximum-values-for-both-total_laid_off-and-percentage_laid_off-across-the-dataset)</br>
+[Exploratory Data Analysis (EDA)](ttps://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#exploratory-data-analysis-eda) </br>
+ * [Identify the maximum values for both total_laid_off and percentage_laid_off across the dataset](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#identify-the-maximum-values-for-both-total_laid_off-and-percentage_laid_off-across-the-dataset)</br>
  * [Identify the total layoffs for each company]</br>
  * [Identify the total layoffs for each industry]</br>
  * [Identify the total layoffs for each country]</br>
