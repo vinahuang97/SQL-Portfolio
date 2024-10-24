@@ -32,35 +32,10 @@ The data availability is from when COVID-19 was declared as a pandemic i.e. 11 M
 Before cleaning the data, I duplicated the table and named it layoffs_staging. This ensures that if I make any mistakes, I can always revert to the original data and start over.
 
 ### 1 Remove Duplicates
-
-- <b> cannot delete using the cte row number method, so I make new table [layoffs_staging2] with additional new rows for row_num </b> </br>
-
-- <b> Inserts data from the "layoffs_staging" table into the "layoffs_staging2" table.</br>
-While doing so, it adds a "row_num" column that generates a unique row number for each group of records with the same combination columns.</br>
-The ROW_NUMBER() function ensures that if there are multiple records with the same values in those columns, each will be assigned a unique number starting from 1.</b></br>
-
-    insert into layoffs_staging2 </br>
-    SELECT *,</br>
-    ROW_NUMBER() OVER(</br>
-    PARTITION BY company, location, industry, </br>
-    total_laid_off, percentage_laid_off, `date`, stage, </br>
-    country, funds_raised_millions</br>
-    ) as row_num</br>
-    FROM layoffs_staging;</br>
-
-- </b> check how much the duplicate columns</b></br>
-    select *</br>
-    from layoffs_staging2</br>
-    where row_num > 1 ;</br>
   
 ![Duplicate Columns](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/pict/duplicate%20columns.png)
 
-
-- <b> Delete Duplicate Columns</b></br>
-
-   DELETE</br>
-   from layoffs_staging2</br>
-   where row_num > 1 ;
+Remove 5 duplicate columns
 
 ### 2 Standardize the Data
 
@@ -79,21 +54,49 @@ The ROW_NUMBER() function ensures that if there are multiple records with the sa
 </br>
 
 ## Exploratory Data Analysis (EDA)
-### Identify the maximum values for both total_laid_off and percentage_laid_off across the dataset
+### 1. Identify the maximum values for both total_laid_off and percentage_laid_off across the dataset
 
 ![maximum values for both total_laid_off & percentage_laid_off](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/pict/max%20total%20%26%20precentage%20laid%20off.png)
 
+### 2. Identify the total layoffs for each company
 
-- Identify the total layoffs for each company.
-- Identify the total layoffs for each industry.
-- Identify the total layoffs for each country.
-- Identify the total layoffs for each state.
-- Identify the average percentage laid off for each company.
-- Identify the earliest and latest layoff dates recorded in the dataset.
-- Identify the total layoffs for each year.
-- Calculae the total layoffs per month, along with the cumulative (rolling) total over the specified time period.
-- Identify the total layoffs for each company in each year.
-- Rank companies by total layoffs each year and retrieve the top 5 companies with the highest layoffs for each year.
+![total layoffs for each company](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/pict/sum%20of%20total%20laid%20off%20by%20company.png)
+
+### 3. Identify the total layoffs for each industry
+
+![total layoffs for each industry](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/pict/sum%20of%20total%20laid%20off%20by%20industry.png)
+
+### 4. Identify the total layoffs for each country
+
+![total layoffs for each country](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/pict/sum%20of%20total%20laid%20off%20by%20country.png)
+
+### 5. Identify the total layoffs for each state
+
+![total layoffs for each state](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/pict/sum%20of%20total%20laid%20off%20by%20state.png)
+
+### 6. Identify the average percentage laid off for each company
+
+![average percentage laid off for each company](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/pict/avg%20percentage%20by%20company.png)
+
+### 7. Identify the earliest and latest layoff dates recorded in the dataset
+
+![earliest & lastest date](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/pict/earliest%20and%20lastest%20date.png)
+
+### 8. Identify the total layoffs for each year.
+
+![total layoffs for each year](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/pict/total%20laid%20off%20each%20year.png)
+ 
+### 9. Calculate the total layoffs per month, along with the cumulative (rolling) total over the specified time period.
+
+![total layoffs per month](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/pict/monthly%20total%20laid%20off.png)
+ 
+### 10. Identify the total layoffs for each company in each year.
+
+![total layoffs for company each year](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/pict/total%20laid%20off%20for%20company%20each%20year.png)
+ 
+### 11. Rank companies by total layoffs each year and retrieve the top 5 companies with the highest layoffs for each year.
+
+![rank companies](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/pict/Rank%20company.png)
 
 
 
