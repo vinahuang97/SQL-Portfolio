@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/fd748f32-4e40-41a1-a20d-690eed1a70c4)# Layoffs SQL Portfolio
+# Layoffs SQL Portfolio
 ## Outline
 [Data Background](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#data-background)</br>
 [Data Cleaning](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#data-cleaning) </br>
