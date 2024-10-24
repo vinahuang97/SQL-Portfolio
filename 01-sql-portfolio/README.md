@@ -1,4 +1,4 @@
-# Layoffs SQL Portfolio
+![image](https://github.com/user-attachments/assets/fd748f32-4e40-41a1-a20d-690eed1a70c4)# Layoffs SQL Portfolio
 ## Outline
 [Data Background](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#data-background)</br>
 [Data Cleaning](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#data-cleaning) </br>
@@ -8,6 +8,20 @@
   * [Remove any unecessary Columns or Rows](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#4-remove-any-columns-or-rows)</br>
  
 [Exploratory Data Analysis (EDA)](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#exploratory-data-analysis-eda) </br>
+ * Identify the maximum values for both total_laid_off and percentage_laid_off across the dataset.
+ * Identify the total layoffs for each company.
+ * Identify the total layoffs for each industry.
+ * Identify the total layoffs for each country.
+ * Identify the total layoffs for each state.
+ * Identify the average percentage laid off for each company.
+ * Identify the earliest and latest layoff dates recorded in the dataset.
+ * Identify the total layoffs for each year.
+ * Calculae the total layoffs per month, along with the cumulative (rolling) total over the specified time period.
+ * Identify the total layoffs for each company in each year.
+ * Rank companies by total layoffs each year and retrieve the top 5 companies with the highest layoffs for each year.
+
+</br>
+</br>
 
 ## Data Background
 Tech firms around the globe are fighting the economic slowdown. The slow consumer spending, higher interest rates by central banks and strong dollars overseas are hinting towards possible recession and tech firms have started laying employees off. This economic slowdown has made Meta recently fire 13% of its workforce, which amounts to more than 11,000 employees.</br>
@@ -65,7 +79,17 @@ The ROW_NUMBER() function ensures that if there are multiple records with the sa
 </br>
 
 ## Exploratory Data Analysis (EDA)
-
+- Identify the maximum values for both total_laid_off and percentage_laid_off across the dataset.
+- Identify the total layoffs for each company.
+- Identify the total layoffs for each industry.
+- Identify the total layoffs for each country.
+- Identify the total layoffs for each state.
+- Identify the average percentage laid off for each company.
+- Identify the earliest and latest layoff dates recorded in the dataset.
+- Identify the total layoffs for each year.
+- Calculae the total layoffs per month, along with the cumulative (rolling) total over the specified time period.
+- Identify the total layoffs for each company in each year.
+- Rank companies by total layoffs each year and retrieve the top 5 companies with the highest layoffs for each year.
 
 
 
