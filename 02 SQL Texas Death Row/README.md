@@ -1,5 +1,14 @@
 # SQL Texas Death Row
+[Data Source: https://mystery.knightlab.com/#experienced](https://mystery.knightlab.com/#experienced)
+</br>
+</br>
 ## Outline
+- [Data Background](https://github.com/vinahuang97/SQL-Portfolio/tree/main/02%20SQL%20Texas%20Death%20Row#data-background)
+- [The Crime Scene Case](https://github.com/vinahuang97/SQL-Portfolio/tree/main/02%20SQL%20Texas%20Death%20Row#data-background)
+- [The Witnesses](https://github.com/vinahuang97/SQL-Portfolio/tree/main/02%20SQL%20Texas%20Death%20Row#data-background)
+- [The Murderer & His Confession](https://github.com/vinahuang97/SQL-Portfolio/tree/main/02%20SQL%20Texas%20Death%20Row#data-background)
+- [The Real Murderer](https://github.com/vinahuang97/SQL-Portfolio/tree/main/02%20SQL%20Texas%20Death%20Row#data-background)
+- [Case Closed](https://github.com/vinahuang97/SQL-Portfolio/tree/main/02%20SQL%20Texas%20Death%20Row#data-background)
 
 
 ### Data Background
