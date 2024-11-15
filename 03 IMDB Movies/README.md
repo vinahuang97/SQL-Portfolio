@@ -1,28 +1,28 @@
 # IMDB Movies
 ## Outline
-[Data Background]()</br>
+[Data Background](https://github.com/vinahuang97/SQL-Portfolio/blob/main/03%20IMDB%20Movies/README.md#data-background)</br>
 
-[Data Cleaning]()</br>
-  - [1. Duplicated Data]()</br>
-  - [2. Standrdize the data]()</br>
-  - [3. null or blank values]()</br>
-  - [4. Remove unnecessary column]()</br>
+[Data Cleaning](https://github.com/vinahuang97/SQL-Portfolio/blob/main/03%20IMDB%20Movies/README.md#data-cleaning)</br>
+  - [1. Duplicated Data](https://github.com/vinahuang97/SQL-Portfolio/blob/main/03%20IMDB%20Movies/README.md#1-duplicated-data)</br>
+  - [2. Standrdize the data](https://github.com/vinahuang97/SQL-Portfolio/blob/main/03%20IMDB%20Movies/README.md#2-standardize-the-data)</br>
+  - [3. null or blank values](https://github.com/vinahuang97/SQL-Portfolio/blob/main/03%20IMDB%20Movies/README.md#3-null-or-blank-values)</br>
+  - [4. Remove unnecessary column](https://github.com/vinahuang97/SQL-Portfolio/blob/main/03%20IMDB%20Movies/README.md#4-remove-unecessary-column)</br>
 
-[Exploratory Data Analysis (EDA)]()</br>
-  - [1. Total Movies]()
-  - [2. Earliest and Lastest Released Year]()
-  - [3. Avg Meta_Score and Imdb Rating]()
-  - [4. Highest Grossing Movies]()
-  - [5. Lowest Grossing Movies]()
-  - [6. Average runtime by Certificate]()
-  - [7. Most Common Genre]()
-  - [8. Top 5 highest-rated genres by average IMDB rating]()
-  - [9. Relationship between genre and gross earnings]()
-  - [10. Top 5 directors by average IMDB rating]()
-  - [11. Most Common Actor]()
-  - [12. number of movies released per year]()
-  - [13. Identify movies with unusually high/low ratings]()
-  - [14. Identify movies with extreme gross earnings]()
+[Exploratory Data Analysis (EDA)](https://github.com/vinahuang97/SQL-Portfolio/blob/main/03%20IMDB%20Movies/README.md#exploratory-data-analysiseda)</br>
+  - [1. Total Movies](https://github.com/vinahuang97/SQL-Portfolio/blob/main/03%20IMDB%20Movies/README.md#1-total-movies)</br>
+  - [2. Earliest and Lastest Released Year](https://github.com/vinahuang97/SQL-Portfolio/blob/main/03%20IMDB%20Movies/README.md#2-earliest-and-lastest-released-year)</br>
+  - [3. Avg Meta_Score and Imdb Rating](https://github.com/vinahuang97/SQL-Portfolio/blob/main/03%20IMDB%20Movies/README.md#3-avg-meta_score-and-imdb-rating)</br>
+  - [4. Highest Grossing Movies](https://github.com/vinahuang97/SQL-Portfolio/blob/main/03%20IMDB%20Movies/README.md#4-highest-grossing-movies)</br>
+  - [5. Lowest Grossing Movies](https://github.com/vinahuang97/SQL-Portfolio/blob/main/03%20IMDB%20Movies/README.md#5-lowest-grossing-movies)</br>
+  - [6. Average runtime by Certificate](https://github.com/vinahuang97/SQL-Portfolio/blob/main/03%20IMDB%20Movies/README.md#6-average-runtime-by-certificate)</br>
+  - [7. Most Common Genre](https://github.com/vinahuang97/SQL-Portfolio/blob/main/03%20IMDB%20Movies/README.md#7-most-common-genre)</br>
+  - [8. Top 5 highest-rated genres by average IMDB rating](https://github.com/vinahuang97/SQL-Portfolio/blob/main/03%20IMDB%20Movies/README.md#8-top-5-highest-rated-genres-by-average-imdb-rating)</br>
+  - [9. Relationship between genre and gross earnings](https://github.com/vinahuang97/SQL-Portfolio/blob/main/03%20IMDB%20Movies/README.md#9-relationship-between-genre-and-gross-earnings)</br>
+  - [10. Top 5 directors by average IMDB rating](https://github.com/vinahuang97/SQL-Portfolio/blob/main/03%20IMDB%20Movies/README.md#10-top-5-directors-by-average-imdb-rating)</br>
+  - [11. Most Common Actor](https://github.com/vinahuang97/SQL-Portfolio/blob/main/03%20IMDB%20Movies/README.md#11-most-common-actor)</br>
+  - [12. number of movies released per year](https://github.com/vinahuang97/SQL-Portfolio/blob/main/03%20IMDB%20Movies/pict/12.%20number%20of%20movies%20released%20per%20year.png)</br>
+  - [13. Identify movies with unusually high/low ratings](https://github.com/vinahuang97/SQL-Portfolio/blob/main/03%20IMDB%20Movies/README.md#13-identify-movies-with-unusually-highlow-ratings)</br>
+  - [14. Identify movies with extreme gross earnings](https://github.com/vinahuang97/SQL-Portfolio/blob/main/03%20IMDB%20Movies/README.md#14-identify-movies-with-extreme-gross-earnings)</br>
 
 
 ## Data Background
@@ -103,4 +103,3 @@ There's no duplicated data, no data needed to be deleted
 
 ![outlier gross earnings movie](https://github.com/vinahuang97/SQL-Portfolio/blob/main/03%20IMDB%20Movies/pict/14%20Identify%20movies%20with%20extreme%20gross%20earnings.png)
 
-14 Identify movies with extreme gross earnings.
