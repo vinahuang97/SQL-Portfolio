@@ -1,24 +1,24 @@
 # Layoffs SQL Portfolio
 ## Outline
-[Data Background](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#data-background)</br>
-[Data Cleaning](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#data-cleaning) </br>
-  * [Remove Duplicates](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#1-remove-duplicates)</br>
-  * [Standardize the Data](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#2-standardize-the-data)</br>
-  * [Null Values or Blank Values](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#3-null-values-or-blank-values)</br>
-  * [Remove any unecessary Columns or Rows](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#4-remove-any-columns-or-rows)</br>
+[Data Background](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio-company-layoffs/README.md#data-background)</br>
+[Data Cleaning](https://github.com/vinahuang97/SQL-Portfolio/tree/main/01-sql-portfolio-company-layoffs#data-cleaning) </br>
+  * [Remove Duplicates](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio-company-layoffs/README.md#1-remove-duplicates)</br>
+  * [Standardize the Data](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio-company-layoffs/README.md#2-standardize-the-data)</br>
+  * [Null Values or Blank Values](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio-company-layoffs/README.md#3-null-values-or-blank-values)</br>
+  * [Remove any unecessary Columns or Rows](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio-company-layoffs/README.md#4-remove-any-columns-or-rows)</br>
  
-[Exploratory Data Analysis (EDA)](ttps://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#exploratory-data-analysis-eda) </br>
- * [Identify the maximum values for both total_laid_off and percentage_laid_off across the dataset](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#1-identify-the-maximum-values-for-both-total_laid_off-and-percentage_laid_off-across-the-dataset)</br>
- * [Identify the total layoffs for each company](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#2-identify-the-total-layoffs-for-each-company)</br>
- * [Identify the total layoffs for each industry](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#3-identify-the-total-layoffs-for-each-industry)</br>
- * [Identify the total layoffs for each country](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#4-identify-the-total-layoffs-for-each-country)</br>
- * [Identify the total layoffs for each state](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#5-identify-the-total-layoffs-for-each-state)</br>
- * [Identify the average percentage laid off for each company](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#6-identify-the-average-percentage-laid-off-for-each-company)</br>
- * [Identify the earliest and latest layoff dates recorded in the dataset](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#7-identify-the-earliest-and-latest-layoff-dates-recorded-in-the-dataset)</br>
- * [Identify the total layoffs for each year](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#8-identify-the-total-layoffs-for-each-year)</br>
- * [Calculate the total layoffs per month, along with the cumulative (rolling) total over the specified time period](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#9-calculate-the-total-layoffs-per-month-along-with-the-cumulative-rolling-total-over-the-specified-time-period)</br>
- * [Identify the total layoffs for each company in each year](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#10-identify-the-total-layoffs-for-each-company-in-each-year)</br>
- * [Rank companies by total layoffs each year and retrieve the top 5 companies with the highest layoffs for each year](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio/README.md#11-rank-companies-by-total-layoffs-each-year-and-retrieve-the-top-5-companies-with-the-highest-layoffs-for-each-year)</br>
+[Exploratory Data Analysis (EDA)](ttps://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio-company-layoffs/README.md#exploratory-data-analysis-eda) </br>
+ * [Identify the maximum values for both total_laid_off and percentage_laid_off across the dataset](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio-company-layoffs/README.md#1-identify-the-maximum-values-for-both-total_laid_off-and-percentage_laid_off-across-the-dataset)</br>
+ * [Identify the total layoffs for each company](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio-company-layoffs/README.md#2-identify-the-total-layoffs-for-each-company)</br>
+ * [Identify the total layoffs for each industry](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio-company-layoffs/README.md#3-identify-the-total-layoffs-for-each-industry)</br>
+ * [Identify the total layoffs for each country](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio-company-layoffs/README.md#4-identify-the-total-layoffs-for-each-country)</br>
+ * [Identify the total layoffs for each state](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio-company-layoffs/README.md#5-identify-the-total-layoffs-for-each-state)</br>
+ * [Identify the average percentage laid off for each company](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio-company-layoffs/README.md#6-identify-the-average-percentage-laid-off-for-each-company)</br>
+ * [Identify the earliest and latest layoff dates recorded in the dataset](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio-company-layoffs/README.md#7-identify-the-earliest-and-latest-layoff-dates-recorded-in-the-dataset)</br>
+ * [Identify the total layoffs for each year](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio-company-layoffs/README.md#8-identify-the-total-layoffs-for-each-year)</br>
+ * [Calculate the total layoffs per month, along with the cumulative (rolling) total over the specified time period](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio-company-layoffs/README.md#9-calculate-the-total-layoffs-per-month-along-with-the-cumulative-rolling-total-over-the-specified-time-period)</br>
+ * [Identify the total layoffs for each company in each year](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio-company-layoffs/README.md#10-identify-the-total-layoffs-for-each-company-in-each-year)</br>
+ * [Rank companies by total layoffs each year and retrieve the top 5 companies with the highest layoffs for each year](https://github.com/vinahuang97/Portfolio/blob/main/01-sql-portfolio-company-layoffs/README.md#11-rank-companies-by-total-layoffs-each-year-and-retrieve-the-top-5-companies-with-the-highest-layoffs-for-each-year)</br>
 
 </br>
 </br>
