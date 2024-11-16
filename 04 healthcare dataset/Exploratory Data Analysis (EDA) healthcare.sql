@@ -11,7 +11,7 @@ select
 	count(distinct medical_condition) as unique_medical_condition,
 	count(distinct doctor) as unique_doctor,
 	count(distinct hospital) as unique_hospitals,
-	count(distinct insurance_provider) as distinct_insurance_providers
+	count(distinct insurance_provider) as unique_insurance_providers
 from healthcare1;
 
 -- 3  min, max, avg age
