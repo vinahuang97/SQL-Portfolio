@@ -8,7 +8,24 @@
 - [3. Null or Blank Data]()</br>
 - [4. Remove Unecessary Column]()</br>
 
-
+[Exploratory Data Analysis (EDA)]()</br>
+- [1. get total numbers of rows]()</br>
+- [2. get unique values each column]()</br>
+- [3. min, max, avg age]()</br>
+- [4. avg group distribution]()</br>
+- [5. gender distribution]()</br>
+- [6. blood type distribution]()</br>
+- [7. medical condition distribution]()</br>
+- [8. hospital distribution]()</br>
+- [9. insurance provider distribution]()</br>
+- [10. min, max, avg billing amount]()</br>
+- [11. room number frequency]()</br>
+- [12. admission and discharge information]()</br>
+- [13. admission type distribution]()</br>
+- [14. medication frequency]()</br>
+- [15. test result frequency]()</br>
+- [16. top doctors]()</br>
+- [17. billing amount outlier]()</br>
 
 ## Data Background
 Each column provides specific information about the patient, their admission, and the healthcare services provided, making this dataset suitable for various data analysis and modeling tasks in the healthcare domain. Here's a brief explanation of each column in the dataset</br>
@@ -50,24 +67,74 @@ Remove row_num column
 ## Exploratory Data Analysis (EDA)
 
 ### 1. get total numbers of rows
+
+![total numbers of rows](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/pict/01.png)
+
 ### 2. get unique values each column
+
+![unique values each column](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/pict/02.png)
+
 ### 3. min, max, avg age
+
+![min, max, avg age](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/pict/03.png)
+
 ### 4. avg group distribution
+
+![avg group distribution](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/pict/04.png)
+
 ### 5. gender distribution
+
+![gender distribution](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/pict/05.png)
+
 ### 6. blood type distribution
+
+![blood type distribution](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/pict/06.png)
+
 ### 7. medical condition distribution
+
+![medical condition distribution](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/pict/07.png)
+
 ### 8. hospital distribution
+
+![hospital distribution](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/pict/08.png)
+
 ### 9. insurance provider distribution
-### 10. min, max, avg, billing amount
+
+![insurance provider distribution](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/pict/09.png)
+
+### 10. min, max, avg billing amount
+
+![min, max, avg billing amount](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/pict/10.png)
+
 ### 11. room number frequency
+
+![room number frequency](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/pict/11.png)
+
 ### 12. admission and discharge information
+
+![admission and discharge information](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/pict/12.png)
+
 ### 13. admission type distribution
+
+![admission type distribution](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/pict/13.png)
+
 ### 14. medication frequency
+
+![medication frequency](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/pict/14.png)
+
 ### 15. test result frequency
+
+![test result frequency](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/pict/15.png)
+
 ### 16. top doctors
+
+![top doctors](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/pict/16.png)
+
 ### 17. billing amount outlier
 
+![billing amount outlier](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/pict/17.png)
 
+There's no outliers
 
 
 
