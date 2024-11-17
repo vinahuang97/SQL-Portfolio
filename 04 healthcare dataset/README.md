@@ -1,31 +1,31 @@
 # Healthcare Dataset
 ## Outline
-[Data Background]()</br>
+[Data Background](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#data-background)</br>
 
-[Data Cleaning]()</br>
-- [1. Duplicated Data]()</br>
-- [2. Standardize the Data]()</br>
-- [3. Null or Blank Data]()</br>
-- [4. Remove Unecessary Column]()</br>
+[Data Cleaning](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#data-cleaning)</br>
+- [1. Duplicated Data](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#1-duplicated-data)</br>
+- [2. Standardize the Data](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#2-standardize-the-data)</br>
+- [3. Null or Blank Data](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#3-null-or-blank-value)</br>
+- [4. Remove Unecessary Column](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#4-remove-unecessary-column)</br>
 
-[Exploratory Data Analysis (EDA)]()</br>
-- [1. get total numbers of rows]()</br>
-- [2. get unique values each column]()</br>
-- [3. min, max, avg age]()</br>
-- [4. avg group distribution]()</br>
-- [5. gender distribution]()</br>
-- [6. blood type distribution]()</br>
-- [7. medical condition distribution]()</br>
-- [8. hospital distribution]()</br>
-- [9. insurance provider distribution]()</br>
-- [10. min, max, avg billing amount]()</br>
-- [11. room number frequency]()</br>
-- [12. admission and discharge information]()</br>
-- [13. admission type distribution]()</br>
-- [14. medication frequency]()</br>
-- [15. test result frequency]()</br>
-- [16. top doctors]()</br>
-- [17. billing amount outlier]()</br>
+[Exploratory Data Analysis (EDA)](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#exploratory-data-analysis-eda)</br>
+- [1. get total numbers of rows](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#1-get-total-numbers-of-rows)</br>
+- [2. get unique values each column](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#2-get-unique-values-each-column)</br>
+- [3. min, max, avg age](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#3-min-max-avg-age)</br>
+- [4. avg group distribution](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#4-avg-group-distribution)</br>
+- [5. gender distribution](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#5-gender-distribution)</br>
+- [6. blood type distribution](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#6-blood-type-distribution)</br>
+- [7. medical condition distribution](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#7-medical-condition-distribution)</br>
+- [8. hospital distribution](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#8-hospital-distribution)</br>
+- [9. insurance provider distribution](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#9-insurance-provider-distribution)</br>
+- [10. min, max, avg billing amount](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#10-min-max-avg-billing-amount)</br>
+- [11. room number frequency](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#11-room-number-frequency)</br>
+- [12. admission and discharge information](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#12-admission-and-discharge-information)</br>
+- [13. admission type distribution](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#13-admission-type-distribution)</br>
+- [14. medication frequency](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#14-medication-frequency)</br>
+- [15. test result frequency](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#15-test-result-frequency)</br>
+- [16. top doctors](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#16-top-doctors)</br>
+- [17. billing amount outlier](https://github.com/vinahuang97/SQL-Portfolio/blob/main/04%20healthcare%20dataset/README.md#17-billing-amount-outlier)</br>
 
 ## Data Background
 Each column provides specific information about the patient, their admission, and the healthcare services provided, making this dataset suitable for various data analysis and modeling tasks in the healthcare domain. Here's a brief explanation of each column in the dataset</br>
